@@ -22,7 +22,7 @@ const Container = styled.div`
   flex: none;
   padding: 8px 4px;
   background-color: ${({ theme }) => theme.nav.background};
-  border-top: solid 2px rgba(133, 133, 133, 0.1);
+  border-top: 3px solid ${({ theme }) => theme.colors.borderColor};
 `;
 
 const PriceLink = styled.a`
@@ -81,7 +81,7 @@ const PanelFooter: React.FC<Props> = ({
         {cakePriceUsd ? (
           <PriceLink href={priceLink} target="_blank">
             <PancakeRoundIcon width="24px" mr="8px" />
-            <Text color="textSubtle" bold>{`$${cakePriceUsd.toFixed(3)}`}</Text>
+            <Text color="text" bold>{`$${cakePriceUsd.toFixed(3)}`}</Text>
           </PriceLink>
         ) : (
           <Skeleton width={80} height={24} />
@@ -114,18 +114,18 @@ const PanelFooter: React.FC<Props> = ({
         <Button variant="text" onClick={() => toggleTheme(!isDark)}>
           {/* alignItems center is a Safari fix */}
           <Flex alignItems="center">
-            <SunIcon color={isDark ? "textDisabled" : "text"} width="24px" />
-            <Text color="textDisabled" mx="4px">
+            <SunIcon color={isDark ? "text" : "text"} width="24px" />
+            <Text color="text" mx="4px">
               /
             </Text>
-            <MoonIcon color={isDark ? "text" : "textDisabled"} width="24px" />
+            <MoonIcon color={isDark ? "text" : "text"} width="24px" />
           </Flex>
         </Button>
         <Dropdown
           position="top-right"
           target={
-            <Button variant="text" startIcon={<LanguageIcon color="textSubtle" width="24px" />}>
-              <Text color="textSubtle">{currentLang?.toUpperCase()}</Text>
+            <Button variant="text" startIcon={<LanguageIcon color="text" width="24px" />}>
+              <Text color="text">{currentLang?.toUpperCase()}</Text>
             </Button>
           }
         >
