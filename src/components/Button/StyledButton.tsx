@@ -51,7 +51,7 @@ const StyledButton = styled.button<ButtonProps>`
   background-color: ${getButtonVariantProp("background")};
   border: ${getButtonVariantProp("border")};
   border-radius: 2px;
-  box-shadow: 'none';
+  box-shadow: "none";
   color: ${getButtonVariantProp("color")};
   cursor: pointer;
   display: inline-flex;
@@ -76,12 +76,12 @@ const StyledButton = styled.button<ButtonProps>`
   }
 
   &:focus:not(:active) {
-    box-shadow: 'none';
+    box-shadow: "none";
   }
 
   &:active {
     background-color: ${getButtonVariantProp("backgroundActive")};
-    box-shadow: 'none';
+    box-shadow: "none";
   }
 
   ${getDisabledStyles}

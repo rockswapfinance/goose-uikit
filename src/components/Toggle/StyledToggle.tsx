@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Handle = styled.div<{ checked: boolean | undefined }>`
-  background-color: ${({ theme, checked }) => checked ? theme.colors.background : theme.toggle.handleBackground};
+  background-color: ${({ theme, checked }) => (checked ? theme.colors.background : theme.toggle.handleBackground)};
   border-radius: 2px;
 
   cursor: pointer;
@@ -28,11 +28,11 @@ export const Input = styled.input`
   }
 
   &:focus + ${Handle} {
-    box-shadow: 'none';
+    box-shadow: "none";
   }
 
   &:hover + ${Handle}:not(:disabled):not(:checked) {
-    box-shadow: 'none';
+    box-shadow: "none";
   }
 `;
 
@@ -41,7 +41,7 @@ const StyledToggle = styled.div<{ checked: boolean }>`
   align-items: center;
   background-color: ${({ theme, checked }) => theme.colors[checked ? "success" : "input"]};
   border-radius: 2px;
-  box-shadow: 'none';
+  box-shadow: "none";
   cursor: pointer;
   display: inline-flex;
   height: 40px;
