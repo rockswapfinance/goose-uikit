@@ -159,7 +159,7 @@ var getButtonVariantProp = function (prop) { return function (_a) {
     var theme = _a.theme, _b = _a.variant, variant = _b === void 0 ? variants.PRIMARY : _b;
     return theme.button[variant][prop];
 }; };
-var StyledButton = styled.button(templateObject_1$2 || (templateObject_1$2 = __makeTemplateObject(["\n  align-items: center;\n  background-color: ", ";\n  border: ", ";\n  border-radius: 2px;\n  box-shadow: 'none';\n  color: ", ";\n  cursor: pointer;\n  display: inline-flex;\n  font-family: inherit;\n  font-size: 16px;\n  font-weight: 600;\n  /* max-content instead of auto for Safari fix */\n  width: ", ";\n  height: ", ";\n  line-height: 1;\n  letter-spacing: 0.03em;\n  justify-content: center;\n  outline: 0;\n  padding: ", ";\n  transition: background-color 0.2s;\n  opacity: ", ";\n\n  &:hover:not(:disabled):not(.button--disabled):not(:active) {\n    background-color: ", ";\n    border: ", ";\n    opacity: 0.8;\n  }\n\n  &:focus:not(:active) {\n    box-shadow: 'none';\n  }\n\n  &:active {\n    background-color: ", ";\n    box-shadow: 'none';\n  }\n\n  ", "\n  ", "\n  ", "\n"], ["\n  align-items: center;\n  background-color: ", ";\n  border: ", ";\n  border-radius: 2px;\n  box-shadow: 'none';\n  color: ", ";\n  cursor: pointer;\n  display: inline-flex;\n  font-family: inherit;\n  font-size: 16px;\n  font-weight: 600;\n  /* max-content instead of auto for Safari fix */\n  width: ", ";\n  height: ", ";\n  line-height: 1;\n  letter-spacing: 0.03em;\n  justify-content: center;\n  outline: 0;\n  padding: ", ";\n  transition: background-color 0.2s;\n  opacity: ", ";\n\n  &:hover:not(:disabled):not(.button--disabled):not(:active) {\n    background-color: ", ";\n    border: ", ";\n    opacity: 0.8;\n  }\n\n  &:focus:not(:active) {\n    box-shadow: 'none';\n  }\n\n  &:active {\n    background-color: ", ";\n    box-shadow: 'none';\n  }\n\n  ", "\n  ", "\n  ", "\n"])), getButtonVariantProp("background"), getButtonVariantProp("border"), getButtonVariantProp("color"), function (_a) {
+var StyledButton = styled.button(templateObject_1$2 || (templateObject_1$2 = __makeTemplateObject(["\n  align-items: center;\n  background-color: ", ";\n  border: ", ";\n  border-radius: 2px;\n  box-shadow: \"none\";\n  color: ", ";\n  cursor: pointer;\n  display: inline-flex;\n  font-family: inherit;\n  font-size: 16px;\n  font-weight: 600;\n  /* max-content instead of auto for Safari fix */\n  width: ", ";\n  height: ", ";\n  line-height: 1;\n  letter-spacing: 0.03em;\n  justify-content: center;\n  outline: 0;\n  padding: ", ";\n  transition: background-color 0.2s;\n  opacity: ", ";\n\n  &:hover:not(:disabled):not(.button--disabled):not(:active) {\n    background-color: ", ";\n    border: ", ";\n    opacity: 0.8;\n  }\n\n  &:focus:not(:active) {\n    box-shadow: \"none\";\n  }\n\n  &:active {\n    background-color: ", ";\n    box-shadow: \"none\";\n  }\n\n  ", "\n  ", "\n  ", "\n"], ["\n  align-items: center;\n  background-color: ", ";\n  border: ", ";\n  border-radius: 2px;\n  box-shadow: \"none\";\n  color: ", ";\n  cursor: pointer;\n  display: inline-flex;\n  font-family: inherit;\n  font-size: 16px;\n  font-weight: 600;\n  /* max-content instead of auto for Safari fix */\n  width: ", ";\n  height: ", ";\n  line-height: 1;\n  letter-spacing: 0.03em;\n  justify-content: center;\n  outline: 0;\n  padding: ", ";\n  transition: background-color 0.2s;\n  opacity: ", ";\n\n  &:hover:not(:disabled):not(.button--disabled):not(:active) {\n    background-color: ", ";\n    border: ", ";\n    opacity: 0.8;\n  }\n\n  &:focus:not(:active) {\n    box-shadow: \"none\";\n  }\n\n  &:active {\n    background-color: ", ";\n    box-shadow: \"none\";\n  }\n\n  ", "\n  ", "\n  ", "\n"])), getButtonVariantProp("background"), getButtonVariantProp("border"), getButtonVariantProp("color"), function (_a) {
     var fullWidth = _a.fullWidth;
     return (fullWidth ? "100%" : "max-content");
 }, function (_a) {
@@ -339,8 +339,8 @@ var Icon$p = function (props) {
 };
 
 var Icon$q = function (props) {
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props),
-        React.createElement("image", { width: "32", height: "32", href: "/images/logo.png" })));
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 52 52" }, props),
+        React.createElement("image", { width: "52", height: "52", href: "/images/rockswap/logo.svg" })));
 };
 
 var Icon$r = function (props) {
@@ -397,7 +397,7 @@ var Icon$u = function (props) {
 
 var Icon$v = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React.createElement("image", { width: 90, height: 90, href: "/images/egg/9.png" })));
+        React.createElement("image", { width: 90, height: 90, href: "/images/rockswap/rock_icon.svg" })));
 };
 
 var Icon$w = function (props) {
@@ -735,7 +735,7 @@ var getScale = function (_a) {
             return "32px";
     }
 };
-var Checkbox = styled.input.attrs({ type: "checkbox" })(templateObject_1$e || (templateObject_1$e = __makeTemplateObject(["\n  appearance: none;\n  overflow: hidden;\n  cursor: pointer;\n  position: relative;\n  display: inline-block;\n  height: ", ";\n  width: ", ";\n  vertical-align: middle;\n  transition: background-color 0.2s ease-in-out;\n  border: 0;\n  border-radius: 2px;\n  border: ", ";\n  background-color: ", ";\n  box-shadow: 'none';\n\n  &:after {\n    content: \"\";\n    position: absolute;\n    border-bottom: 2px solid;\n    border-left: 2px solid;\n    border-color: transparent;\n    top: 30%;\n    left: 0;\n    right: 0;\n    width: 50%;\n    height: 25%;\n    margin: auto;\n    transform: rotate(-50deg);\n    transition: border-color 0.2s ease-in-out;\n  }\n\n  &:hover:not(:disabled):not(:checked) {\n    box-shadow: 'none';\n  }\n\n  &:focus {\n    outline: none;\n    box-shadow: 'none';\n  }\n\n  &:checked {\n    box-shadow: 'none';\n    &:after {\n      border-color: ", ";\n    }\n  }\n\n  &:disabled {\n    cursor: default;\n    opacity: 0.6;\n  }\n"], ["\n  appearance: none;\n  overflow: hidden;\n  cursor: pointer;\n  position: relative;\n  display: inline-block;\n  height: ", ";\n  width: ", ";\n  vertical-align: middle;\n  transition: background-color 0.2s ease-in-out;\n  border: 0;\n  border-radius: 2px;\n  border: ", ";\n  background-color: ", ";\n  box-shadow: 'none';\n\n  &:after {\n    content: \"\";\n    position: absolute;\n    border-bottom: 2px solid;\n    border-left: 2px solid;\n    border-color: transparent;\n    top: 30%;\n    left: 0;\n    right: 0;\n    width: 50%;\n    height: 25%;\n    margin: auto;\n    transform: rotate(-50deg);\n    transition: border-color 0.2s ease-in-out;\n  }\n\n  &:hover:not(:disabled):not(:checked) {\n    box-shadow: 'none';\n  }\n\n  &:focus {\n    outline: none;\n    box-shadow: 'none';\n  }\n\n  &:checked {\n    box-shadow: 'none';\n    &:after {\n      border-color: ", ";\n    }\n  }\n\n  &:disabled {\n    cursor: default;\n    opacity: 0.6;\n  }\n"])), getScale, getScale, function (_a) {
+var Checkbox = styled.input.attrs({ type: "checkbox" })(templateObject_1$e || (templateObject_1$e = __makeTemplateObject(["\n  appearance: none;\n  overflow: hidden;\n  cursor: pointer;\n  position: relative;\n  display: inline-block;\n  height: ", ";\n  width: ", ";\n  vertical-align: middle;\n  transition: background-color 0.2s ease-in-out;\n  border: 0;\n  border-radius: 2px;\n  border: ", ";\n  background-color: ", ";\n  box-shadow: \"none\";\n\n  &:after {\n    content: \"\";\n    position: absolute;\n    border-bottom: 2px solid;\n    border-left: 2px solid;\n    border-color: transparent;\n    top: 30%;\n    left: 0;\n    right: 0;\n    width: 50%;\n    height: 25%;\n    margin: auto;\n    transform: rotate(-50deg);\n    transition: border-color 0.2s ease-in-out;\n  }\n\n  &:hover:not(:disabled):not(:checked) {\n    box-shadow: \"none\";\n  }\n\n  &:focus {\n    outline: none;\n    box-shadow: \"none\";\n  }\n\n  &:checked {\n    box-shadow: \"none\";\n    &:after {\n      border-color: ", ";\n    }\n  }\n\n  &:disabled {\n    cursor: default;\n    opacity: 0.6;\n  }\n"], ["\n  appearance: none;\n  overflow: hidden;\n  cursor: pointer;\n  position: relative;\n  display: inline-block;\n  height: ", ";\n  width: ", ";\n  vertical-align: middle;\n  transition: background-color 0.2s ease-in-out;\n  border: 0;\n  border-radius: 2px;\n  border: ", ";\n  background-color: ", ";\n  box-shadow: \"none\";\n\n  &:after {\n    content: \"\";\n    position: absolute;\n    border-bottom: 2px solid;\n    border-left: 2px solid;\n    border-color: transparent;\n    top: 30%;\n    left: 0;\n    right: 0;\n    width: 50%;\n    height: 25%;\n    margin: auto;\n    transform: rotate(-50deg);\n    transition: border-color 0.2s ease-in-out;\n  }\n\n  &:hover:not(:disabled):not(:checked) {\n    box-shadow: \"none\";\n  }\n\n  &:focus {\n    outline: none;\n    box-shadow: \"none\";\n  }\n\n  &:checked {\n    box-shadow: \"none\";\n    &:after {\n      border-color: ", ";\n    }\n  }\n\n  &:disabled {\n    cursor: default;\n    opacity: 0.6;\n  }\n"])), getScale, getScale, function (_a) {
     var theme = _a.theme;
     return "3px solid " + theme.colors.borderColor;
 }, function (_a) {
@@ -912,7 +912,7 @@ var getHeight = function (_a) {
             return "40px";
     }
 };
-var Input = styled.input(templateObject_1$j || (templateObject_1$j = __makeTemplateObject(["\n  background-color: ", ";\n  border-radius: 2px;\n  box-shadow: 'none';\n  border: ", ";\n  color: ", ";\n  display: block;\n  font-size: 16px;\n  height: ", ";\n  outline: 0;\n  padding: 0 16px;\n  width: 100%;\n\n  &::placeholder {\n    color: ", ";\n  }\n\n  &:disabled {\n    // background-color: ", ";\n    box-shadow: none;\n    // color: ", ";\n    cursor: not-allowed;\n    opacity: 0.6;\n  }\n\n  &:focus:not(:disabled) {\n    box-shadow: 'none';\n    outline: 'none';\n  }\n"], ["\n  background-color: ", ";\n  border-radius: 2px;\n  box-shadow: 'none';\n  border: ", ";\n  color: ", ";\n  display: block;\n  font-size: 16px;\n  height: ", ";\n  outline: 0;\n  padding: 0 16px;\n  width: 100%;\n\n  &::placeholder {\n    color: ", ";\n  }\n\n  &:disabled {\n    // background-color: ", ";\n    box-shadow: none;\n    // color: ", ";\n    cursor: not-allowed;\n    opacity: 0.6;\n  }\n\n  &:focus:not(:disabled) {\n    box-shadow: 'none';\n    outline: 'none';\n  }\n"])), function (_a) {
+var Input = styled.input(templateObject_1$j || (templateObject_1$j = __makeTemplateObject(["\n  background-color: ", ";\n  border-radius: 2px;\n  box-shadow: \"none\";\n  border: ", ";\n  color: ", ";\n  display: block;\n  font-size: 16px;\n  height: ", ";\n  outline: 0;\n  padding: 0 16px;\n  width: 100%;\n\n  &::placeholder {\n    color: ", ";\n  }\n\n  &:disabled {\n    // background-color: ", ";\n    box-shadow: none;\n    // color: ", ";\n    cursor: not-allowed;\n    opacity: 0.6;\n  }\n\n  &:focus:not(:disabled) {\n    box-shadow: \"none\";\n    outline: \"none\";\n  }\n"], ["\n  background-color: ", ";\n  border-radius: 2px;\n  box-shadow: \"none\";\n  border: ", ";\n  color: ", ";\n  display: block;\n  font-size: 16px;\n  height: ", ";\n  outline: 0;\n  padding: 0 16px;\n  width: 100%;\n\n  &::placeholder {\n    color: ", ";\n  }\n\n  &:disabled {\n    // background-color: ", ";\n    box-shadow: none;\n    // color: ", ";\n    cursor: not-allowed;\n    opacity: 0.6;\n  }\n\n  &:focus:not(:disabled) {\n    box-shadow: \"none\";\n    outline: \"none\";\n  }\n"])), function (_a) {
     var theme = _a.theme;
     return theme.colors.input;
 }, function (_a) {
@@ -1106,7 +1106,7 @@ var Progress = function (_a) {
 var rotate$1 = keyframes(templateObject_1$r || (templateObject_1$r = __makeTemplateObject(["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"], ["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"])));
 var SpinnerIcon = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 96 96" }, props),
-        React.createElement("image", { width: "96", height: "96", href: "/images/egg/9.png" })));
+        React.createElement("image", { width: "96", height: "96", href: "/images/rockswap/logo.svg" })));
 };
 var Container$1 = styled.div(templateObject_2$6 || (templateObject_2$6 = __makeTemplateObject(["\n  position: relative;\n"], ["\n  position: relative;\n"])));
 var RotatingPancakeIcon = styled(SpinnerIcon)(templateObject_3$2 || (templateObject_3$2 = __makeTemplateObject(["\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: ", " 2s linear infinite;\n  transform: translate3d(0, 0, 0);\n"], ["\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: ", " 2s linear infinite;\n  transform: translate3d(0, 0, 0);\n"])), rotate$1);
@@ -1145,13 +1145,13 @@ var templateObject_1$s, templateObject_2$7, templateObject_3$3, templateObject_4
 
 var Handle = styled.div(templateObject_1$t || (templateObject_1$t = __makeTemplateObject(["\n  background-color: ", ";\n  border-radius: 2px;\n\n  cursor: pointer;\n  height: 30px;\n  position: absolute;\n  top: 2px;\n  left: 4px;\n  transition: left 200ms ease-in;\n  width: 30px;\n  z-index: 1;\n  border: ", ";\n"], ["\n  background-color: ", ";\n  border-radius: 2px;\n\n  cursor: pointer;\n  height: 30px;\n  position: absolute;\n  top: 2px;\n  left: 4px;\n  transition: left 200ms ease-in;\n  width: 30px;\n  z-index: 1;\n  border: ", ";\n"])), function (_a) {
     var theme = _a.theme, checked = _a.checked;
-    return checked ? theme.colors.background : theme.toggle.handleBackground;
+    return (checked ? theme.colors.background : theme.toggle.handleBackground);
 }, function (_a) {
     var theme = _a.theme;
     return "3px solid " + theme.colors.text;
 });
-var Input$1 = styled.input(templateObject_2$8 || (templateObject_2$8 = __makeTemplateObject(["\n  cursor: pointer;\n  opacity: 0;\n  height: 100%;\n  position: absolute;\n  width: 100%;\n  z-index: 3;\n\n  &:checked + ", " {\n    left: calc(100% - 36px);\n  }\n\n  &:focus + ", " {\n    box-shadow: 'none';\n  }\n\n  &:hover + ", ":not(:disabled):not(:checked) {\n    box-shadow: 'none';\n  }\n"], ["\n  cursor: pointer;\n  opacity: 0;\n  height: 100%;\n  position: absolute;\n  width: 100%;\n  z-index: 3;\n\n  &:checked + ", " {\n    left: calc(100% - 36px);\n  }\n\n  &:focus + ", " {\n    box-shadow: 'none';\n  }\n\n  &:hover + ", ":not(:disabled):not(:checked) {\n    box-shadow: 'none';\n  }\n"])), Handle, Handle, Handle);
-var StyledToggle = styled.div(templateObject_3$4 || (templateObject_3$4 = __makeTemplateObject(["\n  border: ", ";\n  align-items: center;\n  background-color: ", ";\n  border-radius: 2px;\n  box-shadow: 'none';\n  cursor: pointer;\n  display: inline-flex;\n  height: 40px;\n  position: relative;\n  transition: background-color 200ms;\n  width: 72px;\n"], ["\n  border: ", ";\n  align-items: center;\n  background-color: ", ";\n  border-radius: 2px;\n  box-shadow: 'none';\n  cursor: pointer;\n  display: inline-flex;\n  height: 40px;\n  position: relative;\n  transition: background-color 200ms;\n  width: 72px;\n"])), function (_a) {
+var Input$1 = styled.input(templateObject_2$8 || (templateObject_2$8 = __makeTemplateObject(["\n  cursor: pointer;\n  opacity: 0;\n  height: 100%;\n  position: absolute;\n  width: 100%;\n  z-index: 3;\n\n  &:checked + ", " {\n    left: calc(100% - 36px);\n  }\n\n  &:focus + ", " {\n    box-shadow: \"none\";\n  }\n\n  &:hover + ", ":not(:disabled):not(:checked) {\n    box-shadow: \"none\";\n  }\n"], ["\n  cursor: pointer;\n  opacity: 0;\n  height: 100%;\n  position: absolute;\n  width: 100%;\n  z-index: 3;\n\n  &:checked + ", " {\n    left: calc(100% - 36px);\n  }\n\n  &:focus + ", " {\n    box-shadow: \"none\";\n  }\n\n  &:hover + ", ":not(:disabled):not(:checked) {\n    box-shadow: \"none\";\n  }\n"])), Handle, Handle, Handle);
+var StyledToggle = styled.div(templateObject_3$4 || (templateObject_3$4 = __makeTemplateObject(["\n  border: ", ";\n  align-items: center;\n  background-color: ", ";\n  border-radius: 2px;\n  box-shadow: \"none\";\n  cursor: pointer;\n  display: inline-flex;\n  height: 40px;\n  position: relative;\n  transition: background-color 200ms;\n  width: 72px;\n"], ["\n  border: ", ";\n  align-items: center;\n  background-color: ", ";\n  border-radius: 2px;\n  box-shadow: \"none\";\n  cursor: pointer;\n  display: inline-flex;\n  height: 40px;\n  position: relative;\n  transition: background-color 200ms;\n  width: 72px;\n"])), function (_a) {
     var theme = _a.theme;
     return "3px solid " + theme.colors.text;
 }, function (_a) {
@@ -1721,7 +1721,7 @@ var Modal = function (_a) {
 };
 var templateObject_1$u, templateObject_2$9, templateObject_3$5;
 
-var Overlay = styled.div.attrs({ role: "presentation" })(templateObject_1$v || (templateObject_1$v = __makeTemplateObject(["\n  position: fixed;\n  top: 0px;\n  left: 0px;\n  width: 100%;\n  height: 100%;\n  background-color: #452a7a;\n  transition: opacity 0.4s;\n  opacity: ", ";\n  z-index: ", ";\n  pointer-events: ", ";\n"], ["\n  position: fixed;\n  top: 0px;\n  left: 0px;\n  width: 100%;\n  height: 100%;\n  background-color: #452a7a;\n  transition: opacity 0.4s;\n  opacity: ", ";\n  z-index: ", ";\n  pointer-events: ", ";\n"])), function (_a) {
+var Overlay = styled.div.attrs({ role: "presentation" })(templateObject_1$v || (templateObject_1$v = __makeTemplateObject(["\n  position: fixed;\n  top: 0px;\n  left: 0px;\n  width: 100%;\n  height: 100%;\n  background-color: rgba(0, 0, 0, 0.3);\n  transition: opacity 0.4s;\n  opacity: ", ";\n  z-index: ", ";\n  pointer-events: ", ";\n"], ["\n  position: fixed;\n  top: 0px;\n  left: 0px;\n  width: 100%;\n  height: 100%;\n  background-color: rgba(0, 0, 0, 0.3);\n  transition: opacity 0.4s;\n  opacity: ", ";\n  z-index: ", ";\n  pointer-events: ", ";\n"])), function (_a) {
     var show = _a.show;
     return (show ? 0.6 : 0);
 }, function (_a) {
@@ -1837,8 +1837,8 @@ var Icon$O = function (props) {
 
 var Logo = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 205 26" }, props),
-        React.createElement("image", { width: "205", height: "26", href: isDark ? '/images/LogoTextNewDark.png' : '/images/LogoTextNewWhite.png' })));
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 205 52" }, props),
+        React.createElement("image", { width: "205", height: "52", href: isDark ? "/images/rockswap/logoTextDark.svg" : "/images/rockswap/logoTextLight.svg" })));
 };
 
 var Icon$P = function (props) {
@@ -1949,7 +1949,7 @@ var Logo$1 = function (_a) {
         React.createElement(Icon$q, { className: "mobile-icon" }),
         React.createElement(Logo, { className: "desktop-icon", isDark: isDark })));
     return (React.createElement(Flex, null,
-        React.createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React.createElement(Icon$K, { width: "24px", color: "text" })) : (React.createElement(Icon$J, { width: "24px", color: "text" }))),
+        React.createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? React.createElement(Icon$K, { width: "24px", color: "text" }) : React.createElement(Icon$J, { width: "24px", color: "text" })),
         isAbsoluteUrl ? (React.createElement(StyledLink$1, { as: "a", href: href, "aria-label": "Pancake home page" }, innerLogo)) : (React.createElement(StyledLink$1, { to: href, "aria-label": "Pancake home page" }, innerLogo))));
 };
 var templateObject_1$y;
