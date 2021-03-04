@@ -1966,11 +1966,11 @@ var links = [
         items: [
             {
                 label: "Exchange",
-                href: "https://exchange.pancakeswap.finance",
+                href: "https://exchange.rockswap.finance",
             },
             {
                 label: "Liquidity",
-                href: "https://exchange.pancakeswap.finance/#/pool",
+                href: "https://exchange.rockswap.finance/#/pool",
             },
         ],
     },
@@ -2032,20 +2032,6 @@ var links = [
         ],
     },
     {
-        label: "IFO",
-        icon: "IfoIcon",
-        items: [
-            {
-                label: "Next",
-                href: "/ifo",
-            },
-            {
-                label: "History",
-                href: "/ifo/history",
-            },
-        ],
-    },
-    {
         label: "More",
         icon: "MoreIcon",
         items: [
@@ -2055,15 +2041,11 @@ var links = [
             // },
             {
                 label: "Github",
-                href: "https://github.com/goosedefi/",
-            },
-            {
-                label: "Docs",
-                href: "https://goosedefi.gitbook.io/goose-finance/",
+                href: "https://github.com/rockswapfinance",
             },
             {
                 label: "Blog",
-                href: "https://goosefinance.medium.com/",
+                href: "https://rockswap.medium.com/",
             },
         ],
     },
@@ -2075,7 +2057,7 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/goosedefi",
+                href: "https://t.me/rockswap",
             },
             // {
             //   label: "Bahasa Indonesia",
@@ -2119,14 +2101,14 @@ var socials = [
             // },
             {
                 label: "Announcements",
-                href: "https://t.me/goosefinanceann",
+                href: "https://t.me/rockswap",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/FinanceGoose",
+        href: "https://twitter.com/rockswap_bsc",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -2726,7 +2708,7 @@ var brandColors = {
 var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#fff", backgroundDisabled: "#c2c2c2", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#ececec", tertiary: "#ececec", text: "#000000", textDisabled: "#BDC2C4", textSubtle: "#757575", borderColor: "#000000", card: "#ececec", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#ececec", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#7645D9", background: "#fff", backgroundDisabled: "#c2c2c2", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#ececec", primaryDark: "#A86C47", tertiary: "#ececec", text: "#000000", textDisabled: "#BDC2C4", textSubtle: "#757575", borderColor: "#000000", card: "#ececec", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 

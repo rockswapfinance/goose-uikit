@@ -10,11 +10,11 @@ export const links = [
     items: [
       {
         label: "Exchange",
-        href: "https://exchange.pancakeswap.finance",
+        href: "https://exchange.rockswap.finance",
       },
       {
         label: "Liquidity",
-        href: "https://exchange.pancakeswap.finance/#/pool",
+        href: "https://exchange.rockswap.finance/#/pool",
       },
     ],
   },
@@ -76,20 +76,6 @@ export const links = [
     ],
   },
   {
-    label: "IFO",
-    icon: "IfoIcon",
-    items: [
-      {
-        label: "Next",
-        href: "/ifo",
-      },
-      {
-        label: "History",
-        href: "/ifo/history",
-      },
-    ],
-  },
-  {
     label: "More",
     icon: "MoreIcon",
     items: [
@@ -99,15 +85,11 @@ export const links = [
       // },
       {
         label: "Github",
-        href: "https://github.com/goosedefi/",
-      },
-      {
-        label: "Docs",
-        href: "https://goosedefi.gitbook.io/goose-finance/",
+        href: "https://github.com/rockswapfinance",
       },
       {
         label: "Blog",
-        href: "https://goosefinance.medium.com/",
+        href: "https://rockswap.medium.com/",
       },
     ],
   },
@@ -120,7 +102,7 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/goosedefi",
+        href: "https://t.me/rockswap",
       },
       // {
       //   label: "Bahasa Indonesia",
@@ -164,7 +146,7 @@ export const socials = [
       // },
       {
         label: "Announcements",
-        href: "https://t.me/goosefinanceann",
+        href: "https://t.me/rockswap",
       },
       // {
       //   label: "Whale Alert",
@@ -175,7 +157,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/FinanceGoose",
+    href: "https://twitter.com/rockswap_bsc",
   },
 ];
 
